@@ -1,3 +1,8 @@
+import requests
+import urllib.request
+from bs4 import BeautifulSoup
+import re  
+
 def get_phones():
    Number_phone = []
    try:
